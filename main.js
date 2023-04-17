@@ -1,13 +1,15 @@
 for (let i = 1; i <= 100; i++) {
-    
+
     console.log(i);
 
-    if((i % 3)==0){
-        console.log("fizz")
-    } else if ((i % 5)==0){
-        console.log("buzz")
-    } else{
-        console.log(i)
-    }
+    let n = (i % 3)==0;
+    let m = (i % 5)==0;
 
+    if(n){
+        console.log("fizz")
+    } else if (m){
+        console.log("buzz")
+    } else if ( n && m){
+        console.log ("fizz buzz")
+    }
 }
