@@ -5,7 +5,6 @@ for (let i = 1; i <= 100; i++) {
     
     if(multiTre && multiCin ){
         console.log ("fizz-buzz")
-        console.log("fizz")
     } else if (multiCin ){
         console.log("buzz")
     } else if (multiTre){
